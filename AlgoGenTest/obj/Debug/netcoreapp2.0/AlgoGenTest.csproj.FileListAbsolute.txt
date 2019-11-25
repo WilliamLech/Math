@@ -1,0 +1,11 @@
+H:\Maths\algogentest\AlgoGenTest\AlgoGenTest\bin\Debug\netcoreapp2.0\AlgoGenTest.deps.json
+H:\Maths\algogentest\AlgoGenTest\AlgoGenTest\bin\Debug\netcoreapp2.0\AlgoGenTest.runtimeconfig.json
+H:\Maths\algogentest\AlgoGenTest\AlgoGenTest\bin\Debug\netcoreapp2.0\AlgoGenTest.runtimeconfig.dev.json
+H:\Maths\algogentest\AlgoGenTest\AlgoGenTest\bin\Debug\netcoreapp2.0\AlgoGenTest.dll
+H:\Maths\algogentest\AlgoGenTest\AlgoGenTest\bin\Debug\netcoreapp2.0\AlgoGenTest.pdb
+H:\Maths\algogentest\AlgoGenTest\AlgoGenTest\obj\Debug\netcoreapp2.0\AlgoGenTest.csprojAssemblyReference.cache
+H:\Maths\algogentest\AlgoGenTest\AlgoGenTest\obj\Debug\netcoreapp2.0\AlgoGenTest.csproj.CoreCompileInputs.cache
+H:\Maths\algogentest\AlgoGenTest\AlgoGenTest\obj\Debug\netcoreapp2.0\AlgoGenTest.AssemblyInfoInputs.cache
+H:\Maths\algogentest\AlgoGenTest\AlgoGenTest\obj\Debug\netcoreapp2.0\AlgoGenTest.AssemblyInfo.cs
+H:\Maths\algogentest\AlgoGenTest\AlgoGenTest\obj\Debug\netcoreapp2.0\AlgoGenTest.dll
+H:\Maths\algogentest\AlgoGenTest\AlgoGenTest\obj\Debug\netcoreapp2.0\AlgoGenTest.pdb
