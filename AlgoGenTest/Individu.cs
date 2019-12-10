@@ -6,6 +6,7 @@ public class Individu : IComparable<Individu>
     private double detec;
     private double energie;
     private double taille;
+    private static readonly double mutate = 0.10; 
 
     public Individu()
 	{
@@ -41,6 +42,43 @@ public class Individu : IComparable<Individu>
         {
             return 1;
         }
+    }
+
+    private void mutation()
+    {
+        Random rdm = new Random();
+        if (rdm.NextDouble() < mutate)
+        {
+            this.detec += RdmInterval(5);
+        }
+        if (rdm.NextDouble() < mutate)
+        {
+            this.taille += RdmInterval(10);
+        }
+        if (rdm.NextDouble() < mutate)
+        {
+            this.vitesse += RdmInterval(10);
+        }
+        if (rdm.NextDouble() < mutate)
+        {
+            this.energie += RdmInterval(10);
+        }
+    }
+    
+    private  double RdmInterval(double max)
+    {
+        Random rdm = new Random();
+        if (max < 1 )
+        {
+            return rdm.NextDouble();
+        }
+        double res = (rdm.NextDouble()*(max));
+        double sign = rdm.NextDouble();
+        if (sign > 0.5)
+        {
+            res = -res;  
+        }
+        return res;
     }
 
 }
